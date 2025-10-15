@@ -1,14 +1,14 @@
 /* Estilos generales */
 :root {
-    --primary-color: #ff6b6b;
+    --primary-color: #b52e8a;
     --secondary-color: #4ecdc4;
     --accent-color: #ffe66d;
     --dark-color: #292f36;
-    --light-color: #f7fff7;
+    --light-color: #cbbdd2d3;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     color: var(--dark-color);
     background-color: #fff;
 }
@@ -38,7 +38,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+    background: linear-gradient(rgba(202, 152, 187, 0.856), rgba(255, 255, 255, 0.8)), 
                 url('img/portadaFondo.jpeg');
     background-size: cover;
     background-position: center;
@@ -66,7 +66,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #ff5252;
+    background-color: #a52871;
     border-color: #ff5252;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
